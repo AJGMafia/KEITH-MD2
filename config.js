@@ -6,8 +6,8 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "keizzakeith@gmail.com";
-global.location = "Migori.Kenya.";
+global.email = "germainadley5@gmail.com";
+global.location = "ottawa.canada.";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
@@ -17,22 +17,22 @@ global.github = process.env.GITHUB || "https://github.com/Keithkeizzah/KEITH-MD2
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/8f30391e98707c9344db0.jpg";
-global.devs = "254748387615";
-global.sudo = process.env.SUDO || "254748387615";
-global.owner = process.env.OWNER_NUMBER || "254748387615";
+global.devs = "61321977256";
+global.sudo = process.env.SUDO || "6132197256";
+global.owner = process.env.OWNER_NUMBER || "6132197256";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
-global.disablepm = process.env.DISABLE_PM || "false";
-global.disablegroup = process.env.DISABLE_GROUPS || "false",
+global.disablepm = process.env.DISABLE_PM || "true";
+global.disablegroup = process.env.DISABLE_GROUPS || "fasle",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
 global.waPresence = process.env.WAPRESENCE || "online";
-global.readcmds = process.env.READ_COMMAND || "false";
+global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "true";
+global.read_status = process.env.AUTO_READ_STATUS || "fasle";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
@@ -52,7 +52,7 @@ module.exports = {
   author: process.env.PACK_AUTHER || "𝐊𝐄𝐈𝐓𝐇",
   packname: process.env.PACK_NAME || "👁",
   botname: process.env.BOT_NAME || "𝐊𝐄𝐈𝐓𝐇-𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "keithkeizzah",
+  ownername: process.env.OWNER_NAME || "sukuna Ryomen",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
